@@ -32,7 +32,7 @@ This module is installed in a WordPress theme's `modules/` directory and loaded 
 require_once get_template_directory() . '/modules/wp-module-results/results.php';
 ```
 
-Assets are compiled from the parent theme using `yarn build` or `yarn start`.
+Assets are compiled from the parent theme using `yarn build` or `yarn dev`.
 
 ## Conventions
 
