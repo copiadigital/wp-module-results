@@ -14,7 +14,6 @@ class ResultsServiceProvider implements Provider
     protected function providers()
     {
         return [
-            RegisterAssets::class,
             RegisterPostType::class,
         ];
     }
